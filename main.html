@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Groove Box</title>
+	<link rel="shortcut icon" type="image/jpg" href="static/favicon.png">
+	<script src="https://kit.fontawesome.com/75cf4e84e0.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<!-- Navbar -->
+	
+	<div class="navbar">
+		<div id="name_n_logo">
+			<i class="fas fa-play-circle fa-2x logo"></i>
+			<p class="name">Groove Box</p>
+		</div>
+		
+		
+		<nav>
+			<ul>
+				<li><a href="#"><i class="fas fa-home fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-headphones fa-2x"></i></a></li>
+				<li>
+					<form id="search">
+				    	<input type="text" name="search" id="search_bar" placeholder=" Search...">
+				    	<button id="search_btn"><i class="fas fa-search fa-lg" style="color: white;"></i></button>
+				    </form>
+				    <span id="icon"><i class="fas fa-search fa-2x" style="color: white;"></i></span>
+				</li>
+				<li><a href="#"><i class="fas fa-user-circle fa-2x"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Carousel -->
+
+	<div class="carousel-wrapper">
+		<span id="item-1"></span>
+    	<span id="item-2"></span>
+    	<span id="item-3"></span>
+    	<div class="carousel-item item-1">
+      		<div class="screen">
+        		<div class="image"><img src="static/carousel/music_1.jpg" alt=""></div>
+        		<div class="image"><img src="static/carousel/music_2.jpg" alt=""></div>
+        		<div class="image"><img src="static/carousel/music_3.jpg" alt=""></div>
+      		</div>
+      		<a class="arrow arrow-prev" href="#item-3"></a>
+      		<a class="arrow arrow-next" href="#item-2"></a>
+    	</div>
+    
+    	<div class="carousel-item item-2">
+      		<div class="screen">
+        		<div class="image"><img src="static/carousel/dance_1.jpg" alt=""></div>
+				<div class="image"><img src="static/carousel/dance_2.jpg" alt=""></div>
+				<div class="image"><img src="static/carousel/dance_3.jpg" alt=""></div>
+      		</div>
+			<a class="arrow arrow-prev" href="#item-1"></a>
+			<a class="arrow arrow-next" href="#item-3"></a>
+    	</div>
+    
+    	<div class="carousel-item item-3">
+      		<div class="screen">
+				<div class="image"><img src="static/carousel/misc_1.jpg" alt=""></div>
+				<div class="image"><img src="static/carousel/misc_2.jpg" alt=""></div>
+				<div class="image"><img src="static/carousel/misc_3.jpg" alt=""></div>
+      		</div>
+			<a class="arrow arrow-prev" href="#item-2"></a>
+			<a class="arrow arrow-next" href="#item-1"></a>
+    	</div>
+  	</div>
+
+	<!-- Display Area -->
+
+	<div style="display: flex; height: auto; width: 100%;">
+		
+		<!-- Main Display Area -->
+		<div id="main">
+
+			<!-- Latest Releases Music Cards -->
+			<h2>Latest Releases</h2>
+		  	<div id="music_cards">
+				<div class="card">
+			  		<div class="card_info">
+						<div class="alb_img"></div>
+						<div style="margin-left: 2%;">
+				  			<h3>Tera Zikr</h3>
+				  			<p>By : Darshal Raval</p>
+						</div>
+			  		</div>
+	
+			  		<div class="card_dropdown" style="float:right;">
+						<button class="dropbtn"><i class="fas fa-bars"></i></button>
+						<div class="dropdown-content">
+				  			<a href="#music_player">Play</a>
+				  			<a href="#">Add to Playlist</a>
+				  			<a href="#">Download</a>
+						</div>
+			  		</div>
+				</div>
+
+				<div class="card">
+			  		<div class="card_info">
+						<div class="alb_img"></div>
+						<div style="margin-left: 2%;">
+				  			<h3>Tera Zikr</h3>
+				  			<p>By : Darshal Raval</p>
+						</div>
+			  		</div>
+	
+			  		<div class="card_dropdown" style="float:right;">
+						<button class="dropbtn"><i class="fas fa-bars"></i></button>
+						<div class="dropdown-content">
+				  			<a href="#music_player">Play</a>
+				  			<a href="#">Add to Playlist</a>
+				  			<a href="#">Download</a>
+						</div>
+			  		</div>
+				</div>
+	
+				<div class="card">
+			  		<div class="card_info">
+						<div class="alb_img"></div>
+						<div style="margin-left: 2%;">
+				  			<h3>Tera Zikr</h3>
+				  			<p>By : Darshal Raval</p>
+						</div>
+			  		</div>
+	
+			  		<div class="card_dropdown" style="float:right;">
+						<button class="dropbtn"><i class="fas fa-bars"></i></button>
+						<div class="dropdown-content">
+				  			<a href="#music_player">Play</a>
+				  			<a href="#">Add to Playlist</a>
+				  			<a href="#">Download</a>
+						</div>
+			  		</div>
+				</div>
+	
+				<div class="card">
+			  		<div class="card_info">
+						<div class="alb_img"></div>
+						<div style="margin-left: 2%;">
+				  			<h3>Tera Zikr</h3>
+				  			<p>By : Darshal Raval</p>
+						</div>
+			  		</div>
+	
+			  		<div class="card_dropdown" style="float:right;">
+						<button class="dropbtn"><i class="fas fa-bars"></i></button>
+						<div class="dropdown-content">
+				  			<a href="#music_player">Play</a>
+				  			<a href="#">Add to Playlist</a>
+				  			<a href="#">Download</a>
+						</div>
+			  		</div>
+				</div>
+	
+		  	</div>
+		  
+			<!-- Bottom Music Player -->
+		  	<div id="music_player">
+				<div class="details">
+			  		<div class="img"></div>
+			  		<div style="margin-left: 5%;">
+						<p>Tera Zikr</p>
+						<p>Artist - Darshal Raval</p>
+			  		</div>
+				</div>
+	
+				<div class="aux">
+			  		<div class="controls">
+						<i class="fas fa-random fa-2x"></i>
+						<i class="fas fa-step-backward fa-2x"></i>
+						<i class="fas fa-play-circle fa-2x"></i>
+						<i class="fas fa-step-forward fa-2x"></i>
+						<i class="fas fa-plus fa-2x"></i>
+			  		</div>
+	
+			  		<div class="phControls">
+						<i class="fas fa-random fa-lg"></i>
+						<i class="fas fa-step-backward fa-lg"></i>
+						<i class="fas fa-play-circle fa-lg"></i>
+						<i class="fas fa-step-forward fa-lg"></i>
+						<i class="fas fa-plus fa-lg"></i>
+						<i class="fas fa-volume-up fa-lg"></i>
+			  		</div>
+			
+			  		<div class="progress">
+						<span>01:30</span>
+						<div class="outer">
+				  			<div class="inner"></div>
+						</div>
+						<span>04:33</span>
+			  		</div>
+			
+			  		<div class="vol"><i class="fas fa-volume-up fa-2x" style="color: white;"></i></div>
+				</div>
+		  	</div>
+			
+			<!-- Popular Artist List -->
+			<h2>Popular Artist</h2>
+			<div id="artist_list">
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/arijit.jpg" class="artist_img" alt="">
+					</div>
+					<p>Arijit Singh</p>
+				</div>
+		
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/shreya.jpg" class="artist_img" alt="">
+					</div>
+					<p>Shreya Goshal</p>
+				</div>
+		
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/darshal.jpg" class="artist_img" alt="">
+					</div>
+					<p>Darshal Raval</p>
+				</div>
+		
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/honey.jpg" class="artist_img" alt="">
+					</div>
+					<p>Honey Singh</p>
+				</div>
+		
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/neha.jpg" class="artist_img" alt="">
+					</div>
+					<p>Neha Kakkar</p>
+				</div>
+		
+				<div class="artist">
+					<div class="artist_info">
+						<img src="static/artists/badshah.jpg" class="artist_img" alt="">
+					</div>
+					<p>Badshah</p>
+				</div>
+		
+			</div>
+				  
+			<!-- Different Music Station List -->
+			<div id="station_list">
+				<div class="outer">
+					<div class="inner">
+						<div class="innermost">
+							<p>Stations</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="station">
+					<img src="static/stations/love.jpeg" class="station_img" alt="">
+				</div>
+				
+				<div class="station">
+					<img src="static/stations/retro.jpg" class="station_img" alt="">
+				</div>
+
+				<div class="station">
+					<img src="static/stations/chill.jpg" class="station_img" alt="">
+				</div>
+
+				<div class="station">
+					<img src="static/stations/rock.jpg" class="station_img" alt="">
+				</div>
+
+				<div class="station">
+					<img src="static/stations/pop.jpg" class="station_img" alt="">
+				</div>
+
+				<div class="station">
+					<img src="static/stations/workout.jpg" class="station_img" alt="">
+				</div>
+			</div>
+			
+			<!-- Latest English Songs List -->
+			<h2>Latest English Songs</h2>
+			<div id="eng_song_list">
+				<div class="song">
+            		<div class="song_info">
+                		<img src="static/misc/english/eng_1.jpg" class="song_img" alt="">
+            		</div>
+            		<div>
+                		<p style="font-size: 1.05rem;">Tightrope &nbsp; &nbsp; 03:25</p>
+                		<p style="margin-top: -10%;">Zyan Malik</p>      
+            		</div>
+        		</div>
+
+        		<div class="song">
+            		<div class="song_info">
+                		<img src="static/misc/english/eng_2.jpg" class="song_img" alt="">
+            		</div>
+            		<div>
+                		<p style="font-size: 1.05rem;">I Should Pro.. &nbsp; &nbsp; 03:00</p>
+                		<p style="margin-top: -10%;">Dan + Shay</p>  
+            		</div>
+        		</div>
+
+        		<div class="song">
+            		<div class="song_info">
+                		<img src="static/misc/english/eng_3.jpg" class="song_img" alt="">
+            		</div>
+            		<div>
+                		<p style="font-size: 1.05rem;">Hey Boy &nbsp; &nbsp; 03:02</p>
+                		<p style="margin-top: -10%;">Sia</p>      
+            		</div>
+        		</div>
+
+        		<div class="song">
+            		<div class="song_info">
+                		<img src="static/misc/english/eng_2.jpg" class="song_img" alt="">
+            		</div>
+            		<div>
+                		<p style="font-size: 1.05rem;">I Should Pro.. &nbsp; &nbsp; 03:00</p>
+                		<p style="margin-top: -10%;">Dan + Shay</p>  
+            		</div>
+        		</div>
+
+        		<div class="song">
+            		<div class="song_info">
+                		<img src="static/misc/english/eng_1.jpg" class="song_img" alt="">
+            		</div>
+            		<div>
+                		<p style="font-size: 1.05rem;">Tightrope &nbsp; &nbsp; 03:25</p>
+                		<p style="margin-top: -10%;">Zyan Malik</p>      
+            		</div>
+        		</div>
+    		</div>
+    
+			<!-- Latest Hindi Songs List -->
+    		<h2>Latest Hindi Songs</h2>
+    		<div id="hin_song_list">
+      			<div class="song">
+        			<div class="song_info">
+            			<img src="static/misc/hindi/hin_1.jpg" class="song_img" alt="">
+        			</div>
+        			<div>
+            			<p style="font-size: 1.05rem;">Mehndi Wale 04:06</p>
+            			<p style="margin-top: -10%;">Guru Randhawa</p>      
+        			</div>
+    			</div>
+
+    			<div class="song">
+        			<div class="song_info">
+            			<img src="static/misc/hindi/hin_2.jpg" class="song_img" alt="">
+        			</div>
+        			<div>
+            			<p style="font-size: 1.05rem;">Pachtaoge &nbsp; 03:47</p>
+            			<p style="margin-top: -10%;">Arijit Singh</p>  
+        			</div>
+    			</div>
+
+    			<div class="song">
+        			<div class="song_info">
+            			<img src="static/misc/hindi/hin_3.jpg" class="song_img" alt="">
+        			</div>
+        			<div>
+            			<p style="font-size: 1.05rem;">Bekhayali &nbsp; &nbsp; 05:54</p>
+      					<p style="margin-top: -10%;">Arijit Singh</p>      
+        			</div>
+    			</div>
+
+    			<div class="song">
+        			<div class="song_info">
+            			<img src="static/misc/hindi/hin_2.jpg" class="song_img" alt="">
+        			</div>
+        			<div>
+            			<p style="font-size: 1.05rem;">Pachtaoge &nbsp; 03:47</p>
+            			<p style="margin-top: -10%;">Arijit Singh</p>  
+        			</div>
+    			</div>
+
+    			<div class="song">
+        			<div class="song_info">
+            			<img src="static/misc/hindi/hin_1.jpg" class="song_img" alt="">
+        			</div>
+        			<div>	
+            			<p style="font-size: 1.05rem;">Mehndi Wale 04:06</p>
+            			<p style="margin-top: -10%;">Guru Randhawa</p>
+        			</div>
+    			</div>
+  			</div>
+
+		</div>
+
+		<!-- Queue/Aside Display Area -->
+		<div id="aside">
+
+			<!-- Aside Heading -->
+			<div class="asd_heading">
+				<h2 style="margin-left: 2%;">Queue</h2>
+			  	<select class="heading_dropdown" name="" id="">
+					<option value="">queue</option>
+					<option value="">playlist</option>
+			  	</select>
+		  	</div>
+
+			<!-- Queue List -->
+			<div id="queue">
+				<div class="q_item">
+					<div class="q_item_info">
+						<p>01</p>
+						<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+						</div>
+				  		<div>
+							<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+				
+				<div class="q_item">
+					<div class="q_item_info">
+						<p>02</p>
+				  		<div class="q_item_banner">
+							  <img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>03</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>04</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>05</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>06</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>07</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>08</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>09</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>10</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>11</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+			
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>12</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>13</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>14</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>15</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>16</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>17</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>18</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>19</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>20</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>21</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>22</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>23</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/terazikr.jpeg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Tera Zikr</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+				<div class="q_item">
+			  		<div class="q_item_info">
+				  		<p>24</p>
+				  		<div class="q_item_banner">
+							<img src="static/misc/hawabanke.jpg" class="q_item_img" alt="">
+				  		</div>
+				  		<div>
+					  		<p>Hawa Banke</p>
+					  		<p style="margin-top: -12%;">Darshal Raval</p>
+				  		</div>
+			  		</div>
+			  		<div style="margin-right: 5%; color: white;"><i class="far fa-heart"></i></div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
